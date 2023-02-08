@@ -774,3 +774,31 @@ body .container .card .box .content a:hover {
   height: 600px;
   width: 100%;
 }
+
+@media only screen and (max-width: 400px) {
+  .bannerimg {
+    height: 200px;
+    width: 100px;
+  }
+}  
+
+@media only screen and (max-width: 400px) {
+  .welcomeimg {
+    height: 200px;
+    width: 100px;
+  }
+}  
+
+@media only screen and (max-width: 1200px) {
+  .bannerimg {
+    height: 500px;
+    width: 100px;
+  }
+}  
+
+@media only screen and (max-width: 1200px) {
+  .welcomeimg {
+    height: 500px;
+    width: 100px;
+  }
+}  
