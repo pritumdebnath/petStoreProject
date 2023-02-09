@@ -595,8 +595,8 @@ a:focus {
 .productimg {
   height: 200px;
   width: 200px;
-  border-radius: 5%;
-  box-shadow: 5px 5px 15px 5px whitesmoke;
+  /* border-radius: 5%;
+  box-shadow: 5px 5px 15px 5px whitesmoke; */
 }
 
 body .container {
