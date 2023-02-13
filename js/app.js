@@ -85,7 +85,7 @@ var shop = [
     },
     {
         title: 'Bird Cage',
-        image: './images/petStorePictures/welcomesign.png',
+        image: './images/petStorePictures/birdcage.png',
         description: 'Beautiful and Secure',
         price: 'Buy Now: $79'
     },
