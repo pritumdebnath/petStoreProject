@@ -94,11 +94,12 @@ var shop = [
 var postHTML = ""
 
 for (var i=0; i < shop.length ; i++){
-    var heading = '<divclass="container"><div class="row"><div class="card col-md-5"><div class="box"><div class="content"><h3>' + shop[i].title + '</h3>'
+    var container = '<div class="containersale backgroundclrsale"><div class="cardsale"><div class="boxsale">'
+    var heading = '<div class="contentsale"><h3>' + shop[i].title + '</h3>'
     var image = '<p><img class="productimg" src="' + shop[i].image + '"></p>'
     var description = '<p>'+ shop[i].description + '</p>'
-    var price = '<a href="#">' + shop[i].price + '</a></div></div></div></div></div>'
-    var concatThis = heading + image + description + price;
+    var price = '<a href="#">' + shop[i].price + '</a></div></div></div></div>'
+    var concatThis = container + heading + image + description + price;
     postHTML = postHTML + concatThis
 }
 document.getElementById('shop').innerHTML = postHTML
