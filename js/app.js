@@ -3,19 +3,19 @@ var shop = [
         title: 'Dog Treats',
         image: './images/dogtreats.png',
         description: 'Crunchy and Delicious',
-        price: 'Buy Now: $9'
+        price: 'Sale: $1'
     },
     {
         title: 'Dog Harness',
         image: './images/dogharness.png',
         description: 'Secure and Strong',
-        price: 'Buy Now: $19'
+        price: 'Sale: $3'
     },
     {
         title: 'Cat Bed',
         image: './images/catbed.png',
         description: 'Soft and Comfortable',
-        price: 'Buy Now: $29'
+        price: 'Sale: $5'
     },
     // {
     //     title: 'Dog Food',
