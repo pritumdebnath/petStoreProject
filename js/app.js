@@ -17,24 +17,24 @@ var shop = [
         description: 'Soft and Comfortable',
         price: 'Sale: $5'
     },
-    // {
-    //     title: 'Dog Food',
-    //     image: './images/petStorePictures/dogfood.png',
-    //     description: 'Crunchy and Tasty',
-    //     price: 'Buy Now: $29'
-    // },
-    // {
-    //     title: 'Dog Ball Toy',
-    //     image: './images/petStorePictures/dogball.png',
-    //     description: 'Colorful and Fun',
-    //     price: 'Buy Now: $9'
-    // },
-    // {
-    //     title: 'Dog Leash',
-    //     image: './images/petStorePictures/dogleash.png',
-    //     description: 'Strong and Good Quality',
-    //     price: 'Buy Now: $19'
-    // },
+    {
+        title: 'Mouse Toy',
+        image: './images/petStorePictures/catmousetoy.png',
+        description: 'Squishy and Lifelike',
+        price: 'Sale: $2'
+    },
+    {
+        title: 'Food Bowl',
+        image: './images/petStorePictures/dogbowl.png',
+        description: 'Stainless Steel and Cooling',
+        price: 'Sale: $4'
+    },
+    {
+        title: 'Bird House',
+        image: './images/petStorePictures/birdhouse.png',
+        description: 'Built to Last',
+        price: 'Sale: $6'
+    },
     // {
     //     title: 'Dog Crate',
     //     image: './images/petStorePictures/dogcrate.png',
